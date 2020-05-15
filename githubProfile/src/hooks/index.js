@@ -1,1 +1,1 @@
-export { useExample } from "../redux/ducks/example"
+export { useData } from "../redux/ducks/GetData"
