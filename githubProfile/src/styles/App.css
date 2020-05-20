@@ -87,7 +87,6 @@
 
 .links li:hover {
   margin: 10px 10px 20px;
-  background-color: bisque;
 }
 
 .inputs {
@@ -167,6 +166,10 @@
   border-bottom: solid #D1D5DA 1px;
 }
 
+.repoBorder {
+  border-bottom: solid #D1D5DA 1px;
+}
+
 .myContent {
   width: 64.5%;
   margin-left: 8px;
@@ -191,4 +194,19 @@
   font-size: 14px;
   margin-bottom: 8px;
  
+}
+
+.linkFlex {
+  display: flex;
+}
+
+.count {
+  margin-left: 4px;
+  background-color: #EDEDEE;
+  color: #596069;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
 }

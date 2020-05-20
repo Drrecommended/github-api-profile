@@ -16,6 +16,7 @@ export default function Sidebar() {
             <div className="userName">{myGit.login}</div>
             <button className="button">Follow</button>
             <div className="local">{myGit.location}</div>
+            <div className="email">{myGit.email || 'N/A'}</div>
             <div className="flex1">
                 <div className="star">☆</div>
                 <div className="purpleBox">
